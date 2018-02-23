@@ -6,7 +6,7 @@ import { connect } from 'react-redux';
 import { storeFeedList } from "./actions/index.js";
 import './App.css';
 
-class FeedList extends Component {
+class ProductList extends Component {
   constructor(props)
   {
     super(props);
@@ -116,5 +116,5 @@ function mapStateToProps(state)
 
 
 
-export default connect(mapStateToProps, { storeFeedList })(FeedList);
+export default connect(mapStateToProps, { storeFeedList })(ProductList);
 //export default FeedList;

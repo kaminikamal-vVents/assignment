@@ -1,1 +1,2 @@
 export const FEEDLIST_LIST = "FEEDLIST_LIST";
+export const PRODUCT_LIST = "PRODUCT_LIST";

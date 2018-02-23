@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "@moltin/sdk": "^3.3.0",
+    "semantic-ui-css": "2.2.10",
+    "semantic-ui-react": "0.78.2",
     "lodash": "^4.17.5",
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
