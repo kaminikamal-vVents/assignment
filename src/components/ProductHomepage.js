@@ -78,7 +78,7 @@ class ProductHomepage extends Component {
                       <p>{el.description}</p>
                       <p>{el.sku + " " + el.meta.display_price.with_tax.formatted}</p>
                       <p>{ el.meta.stock.level + " " + el.meta.stock.availability}</p>
-                      <Link to={ "/product/"+el.id }><Button content="BuyNow" primary ></Button></Link>
+                      <Link to={ "/product/"+el.id }><Button content="View Item" primary ></Button></Link>
                     </div>
                   </div>
                 )
